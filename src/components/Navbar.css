@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+}
+
+.navbar__left {
+  flex: 1;
+}
+
+.navbar__logo {
+  max-width: 80px;
+}
+
+.navbar__right {
+  display: flex;
+  display: 1;
+  padding-top: 33px;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: black !important;
+  margin-right: 22px;
+  font-family: playfairDisplay;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 33px;
+}
