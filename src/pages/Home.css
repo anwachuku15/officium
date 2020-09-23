@@ -1,0 +1,10 @@
+.home {
+}
+
+.home__carousel {
+  background-image: url("../assets/img/solutions2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}

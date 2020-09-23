@@ -1,0 +1,149 @@
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel__item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.slide__arrowBack {
+}
+
+.item__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 16% 8%;
+  width: 90%;
+}
+
+.carousel__solutions {
+  /* display: none; */
+  background-image: url("../assets/img/solutions2.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
+}
+
+.carousel__clinicaldev {
+  /* display: none; */
+  background-image: url("../assets/img/clinicaldev.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
+}
+
+.carousel__education {
+  /* display: none; */
+  background-image: url("../assets/img/education.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(124, 106, 0, 0.438);
+}
+
+.carousel__projectmanagement {
+  /* display: none; */
+  background-image: url("../assets/img/projectmanagement.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(122, 49, 0, 0.671);
+}
+
+.carousel__dots {
+  text-align: center;
+}
+
+.carousel__dots > span {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50px;
+  display: inline-block;
+  transition: background-color 300ms ease;
+  position: relative;
+}
+
+.active,
+.carousel__dots > span:hover {
+  background-color: #717171;
+}
+
+.carousel__title {
+  font-size: 50px;
+  font-family: limelight;
+}
+.carousel__subtitle {
+  font-size: 25px;
+  font-family: playfair;
+  padding: 0% 12%;
+}
+
+.buttonWrapper {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 6px 15px 8px 15px;
+  font-family: playfair;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: background-color 150ms, border 150ms;
+  position: relative;
+}
+
+.carousel__link {
+  display: flex;
+  color: white !important;
+  text-decoration: none;
+}
+
+.carousel__link > span {
+  font-size: 20px;
+}
+
+.buttonWrapper:hover {
+  background-color: rgba(201, 201, 201, 0.384);
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.link__arrowForward {
+  position: relative;
+  bottom: -3px;
+  margin-left: -20px;
+  color: transparent;
+  transition: all 200ms;
+}
+
+.buttonWrapper:hover .link__arrowForward {
+  margin-left: 10px;
+  color: white;
+}
