@@ -3,15 +3,20 @@
 }
 
 @font-face {
-  font-family: playfairDisplay;
-  src: url("./assets/fonts/playfairDisplay.ttf");
+  font-family: playfair;
+  src: url("./assets/fonts/playfair.ttf");
+}
+
+@font-face {
+  font-family: limelight;
+  src: url("./assets/fonts/limelight.ttf");
 }
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif, playfairDisplay;
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
