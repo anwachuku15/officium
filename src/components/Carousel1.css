@@ -47,14 +47,14 @@
 .carousel__clinicaldev1 {
   /* display: none; */
   background-image: url("../assets/img/clinicaldev.jpg");
-  box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
+  box-shadow: inset 0 0 0 2000px rgba(17, 90, 145, 0.5);
 }
 
 .carousel__education1 {
   /* display: none; */
 
   background-image: url("../assets/img/education.jpg");
-  box-shadow: inset 0 0 0 2000px rgba(124, 106, 0, 0.438);
+  box-shadow: inset 0 0 0 2000px rgba(169, 143, 0, 0.438);
 }
 
 .carousel__projectmanagement1 {
@@ -77,9 +77,11 @@
 
 .slideUp {
   animation-name: slideUp;
-  animation-delay: 1000ms;
+  animation-delay: 900ms;
   animation-duration: 700ms;
-  z-index: 20;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  /* z-index: 20; */
 }
 
 .item__wrapper1 {
@@ -119,6 +121,14 @@
   position: relative;
 }
 
+.buttonWrapper1:hover {
+  background-color: rgba(201, 201, 201, 0.384);
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
 .carousel__link1 {
   display: flex;
   color: white !important;
@@ -127,14 +137,6 @@
 
 .carousel__link1 > span {
   font-size: 20px;
-}
-
-.buttonWrapper1:hover {
-  background-color: rgba(201, 201, 201, 0.384);
-  border: 2px solid transparent;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
 }
 
 .link__arrowForward1 {

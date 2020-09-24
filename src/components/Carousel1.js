@@ -66,7 +66,7 @@ const Carousel = () => {
     content[slide].current.style.opacity = 0;
     setTimeout(() => {
       content[slide].current.style.opacity = 1;
-    }, 1700);
+    }, 1600);
   };
 
   useEffect(() => {

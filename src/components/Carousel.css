@@ -180,7 +180,7 @@
   padding: 6px 15px 8px 15px;
   font-family: playfair;
   border-radius: 3px;
-  border: 2px solid white;
+  border: 2px solid #dd9e00;
   background-color: transparent;
   transition: background-color 150ms, border 150ms;
   position: relative;
