@@ -78,7 +78,7 @@
 .slideUp {
   animation-name: slideUp;
   animation-delay: 1000ms;
-  animation-duration: 500ms;
+  animation-duration: 700ms;
   z-index: 20;
 }
 
@@ -109,7 +109,7 @@
   align-self: center;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
   padding: 6px 15px 8px 15px;
   font-family: playfair;
   border-radius: 3px;
