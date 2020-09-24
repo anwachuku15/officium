@@ -42,12 +42,12 @@
 
 .logoSmall {
   max-width: 75px;
-  transition: max-width 500ms;
+  transition: max-width 500ms ease-in-out;
 }
 
 .logoBig {
-  max-width: 120px;
-  transition: max-width 500ms;
+  max-width: 110px;
+  transition: max-width 500ms ease-in-out;
 }
 
 .navbar__right {

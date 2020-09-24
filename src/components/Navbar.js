@@ -9,7 +9,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const onScroll = (e) => {
-      if (e.target.documentElement.scrollTop > 30) {
+      if (e.target.documentElement.scrollTop > 20) {
         setScrollMax(true);
       } else {
         setScrollMax(false);
