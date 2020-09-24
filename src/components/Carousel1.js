@@ -17,10 +17,15 @@ const Carousel = () => {
   const third = useRef();
   const fourth = useRef();
   const dotRefs = [first, second, third, fourth];
+  const content0 = useRef();
+  const content1 = useRef();
+  const content2 = useRef();
+  const content3 = useRef();
 
   let slide = 0;
   let prev = 3;
   const slides = [solutions, clinicaldev, education, projectmgmt];
+  const content = [content0, content1, content2, content3];
 
   const slideControl = (n) => {
     if (slide === 3 && n === 1) {
@@ -40,6 +45,7 @@ const Carousel = () => {
   };
 
   const showSlide = (slide, prev) => {
+    showContent(slide);
     slides[prev].current.style.opacity = 0;
     dotRefs[prev].current.style.backgroundColor = "rgba(253, 253, 253, 0.74)";
     slides[slide].current.style.opacity = 1;
@@ -55,20 +61,32 @@ const Carousel = () => {
     dotRefs[prev].current.style.backgroundColor = "rgba(253, 253, 253, 0.74)";
   };
 
+  const showContent = (slide) => {
+    console.log(content[slide]);
+
+    content[slide].current.style.opacity = 0;
+    setTimeout(() => {
+      content[slide].current.style.opacity = 1;
+    }, 1500);
+
+    content[slide].current.classList.add("slideUp");
+    content[prev].current.classList.remove("slideUp");
+  };
+
   useEffect(() => {
     showSlide(slide, 3);
     dotRefs[0].current.style.backgroundColor = "#535353d0";
-  }, [showSlide]);
+  });
 
   return (
     <div className="carouselContainer1">
       <div className="carousel1">
         <div
           className="carousel__item1 carousel__solutions1 fader"
-          style={{ opacity: 1 }}
+          style={{ opacity: 0 }}
           ref={solutions}
         >
-          <div className="item__wrapper1">
+          <div className="item__wrapper1" ref={content0}>
             <h1 className="carousel__title1">Solutions</h1>
             <p className="carousel__subtitle1">
               An Innovative Understanding and Evaluation of Science Company
@@ -89,7 +107,11 @@ const Carousel = () => {
           style={{ opacity: 0 }}
           ref={clinicaldev}
         >
-          <div className="item__wrapper1">
+          <div
+            className="item__wrapper1"
+            // style={{ opacity: 0, marginTop: 70 }}
+            ref={content1}
+          >
             <h1 className="carousel__title1">Clinical Development</h1>
             <p className="carousel__subtitle1">
               With our research services and diverse therapeutic expertise we
@@ -111,7 +133,11 @@ const Carousel = () => {
           style={{ opacity: 0 }}
           ref={education}
         >
-          <div className="item__wrapper1">
+          <div
+            className="item__wrapper1"
+            // style={{ opacity: 0, marginTop: 70 }}
+            ref={content2}
+          >
             <h1 className="carousel__title1">Education</h1>
             <p className="carousel__subtitle1">
               Achieve more with our talented team of education researchers and
@@ -133,7 +159,11 @@ const Carousel = () => {
           style={{ opacity: 0 }}
           ref={projectmgmt}
         >
-          <div className="item__wrapper1">
+          <div
+            className="item__wrapper1"
+            // style={{ opacity: 0, marginTop: 70 }}
+            ref={content3}
+          >
             <h1 className="carousel__title1">Project Management</h1>
             <p className="carousel__subtitle1">
               To compete in today's economy, effective and innovation management

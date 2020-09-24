@@ -1,23 +1,17 @@
-@keyframes fader {
+/* @keyframes fader {
   from {
     opacity: 1;
   }
   to {
     opacity: 0;
   }
-}
-
-.fader {
-  /* animation-name: fader; */
-  /* animation-delay: 4000ms; */
-  /* animation-duration: 4000ms; */
-  /* z-index: 20; */
-}
+} */
 
 .carouselContainer1 {
   display: flex;
   flex-direction: column;
-  position: relative;
+  flex: 1;
+  height: 100vh;
 }
 
 .carousel1 {
@@ -25,6 +19,7 @@
   flex-direction: column;
   width: 100%;
   position: relative;
+  height: 100vh;
 }
 
 .carousel__item1 {
@@ -40,16 +35,6 @@
   position: absolute;
   width: 100%;
   transition: all 1s ease;
-}
-
-.item__wrapper1 {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 16% 8%;
-  width: 90%;
 }
 
 .carousel__solutions1 {
@@ -76,6 +61,36 @@
   /* display: none; */
   background-image: url("../assets/img/projectmanagement.jpg");
   box-shadow: inset 0 0 0 2000px rgba(122, 49, 0, 0.671);
+}
+
+/* CAROUSEL CONTENT */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    margin-top: 100px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+.slideUp {
+  animation-name: slideUp;
+  animation-delay: 1000ms;
+  animation-duration: 500ms;
+  z-index: 20;
+}
+
+.item__wrapper1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16% 8%;
+  width: 90%;
+  transition: all 0.2 ease;
 }
 
 .carousel__title1 {
@@ -135,15 +150,16 @@
   color: white;
 }
 
+/* SLIDE ARROWS */
 .slide__arrow1 {
   display: block;
   flex-direction: row;
   width: 100%;
 }
+
 .slide__arrowLeft1,
 .slide__arrowRight1 {
   color: rgba(255, 255, 255, 0.842);
-
   z-index: 100;
   top: 47%;
   margin-top: 0;
@@ -180,13 +196,11 @@
   opacity: 1;
 }
 
+/* DOTS */
 .carousel__dots1 {
+  position: relative;
   text-align: center;
-  /* position: relative; */
-  /* z-index: 10; */
-  /* top: 20px; */
-  /* left: 0; */
-  width: 100%;
+  bottom: 40px;
 }
 
 .carousel__dots1 > span {
