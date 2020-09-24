@@ -1,0 +1,208 @@
+@keyframes fader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fader {
+  /* animation-name: fader; */
+  /* animation-delay: 4000ms; */
+  /* animation-duration: 4000ms; */
+  /* z-index: 20; */
+}
+
+.carouselContainer1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.carousel1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.carousel__item1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  transition: all 1s ease;
+}
+
+.item__wrapper1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 16% 8%;
+  width: 90%;
+}
+
+.carousel__solutions1 {
+  /* display: none; */
+
+  background-image: url("../assets/img/solutions2.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
+}
+
+.carousel__clinicaldev1 {
+  /* display: none; */
+  background-image: url("../assets/img/clinicaldev.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
+}
+
+.carousel__education1 {
+  /* display: none; */
+
+  background-image: url("../assets/img/education.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(124, 106, 0, 0.438);
+}
+
+.carousel__projectmanagement1 {
+  /* display: none; */
+  background-image: url("../assets/img/projectmanagement.jpg");
+  box-shadow: inset 0 0 0 2000px rgba(122, 49, 0, 0.671);
+}
+
+.carousel__title1 {
+  font-size: 50px;
+  font-family: limelight;
+}
+.carousel__subtitle1 {
+  font-size: 25px;
+  font-family: playfair;
+  padding: 0% 12%;
+}
+
+.buttonWrapper1 {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 6px 15px 8px 15px;
+  font-family: playfair;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: background-color 150ms, border 150ms;
+  position: relative;
+}
+
+.carousel__link1 {
+  display: flex;
+  color: white !important;
+  text-decoration: none;
+}
+
+.carousel__link1 > span {
+  font-size: 20px;
+}
+
+.buttonWrapper1:hover {
+  background-color: rgba(201, 201, 201, 0.384);
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.link__arrowForward1 {
+  position: relative;
+  bottom: -3px;
+  margin-left: -20px;
+  color: transparent;
+  transition: all 200ms;
+}
+
+.buttonWrapper1:hover .link__arrowForward1 {
+  margin-left: 10px;
+  color: white;
+}
+
+.slide__arrow1 {
+  display: block;
+  flex-direction: row;
+  width: 100%;
+}
+.slide__arrowLeft1,
+.slide__arrowRight1 {
+  color: rgba(255, 255, 255, 0.842);
+
+  z-index: 100;
+  top: 47%;
+  margin-top: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.slide__arrowLeft1 > .MuiSvgIcon-root:hover,
+.slide__arrowRight1 > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+}
+
+.slide__arrowLeft1 {
+  position: absolute;
+  margin-left: -30px;
+  opacity: 0;
+  transition: margin-left 0.3s, opacity 0.2s;
+}
+
+.carousel1:hover .slide__arrowLeft1 {
+  margin-left: 33px;
+  opacity: 1;
+}
+
+.slide__arrowRight1 {
+  position: absolute;
+  right: 3%;
+  margin-right: -52px;
+  opacity: 0;
+  transition: margin-right 0.3s, opacity 0.2s;
+}
+
+.carousel1:hover .slide__arrowRight1 {
+  margin-right: 11px;
+  opacity: 1;
+}
+
+.carousel__dots1 {
+  text-align: center;
+  /* position: relative; */
+  /* z-index: 10; */
+  /* top: 20px; */
+  /* left: 0; */
+  width: 100%;
+}
+
+.carousel__dots1 > span {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgba(253, 253, 253, 0.74);
+  border-radius: 50px;
+  display: inline-block;
+  transition: background-color 300ms ease;
+  position: relative;
+  text-indent: -9999px;
+}
+
+.active1,
+.carousel__dots1 > span:hover {
+  background-color: #535353d0;
+}
