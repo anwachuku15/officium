@@ -8,6 +8,11 @@
 }
 
 @font-face {
+  font-family: playfairSC;
+  src: url("./assets/fonts/playfairSC.ttf");
+}
+
+@font-face {
   font-family: limelight;
   src: url("./assets/fonts/limelight.ttf");
 }
