@@ -1,0 +1,138 @@
+@media (min-width: 981px) {
+  .muiGrid__container {
+    padding: 2% 0;
+  }
+}
+
+/* GRID ANIMATIONS */
+/* .items {
+    animation-duration: 1850ms;
+    animation-delay: 0ms;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    transform: perspective(2000px) rotateX(54deg);
+} */
+
+.description1__container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.description1__gridContainer {
+  display: block;
+  padding: 23px 0px 54px 0px;
+}
+
+.description1__header {
+  padding-top: 41px;
+  max-width: 1080px !important;
+  width: 80%;
+  margin: auto;
+}
+
+.description1__header > h1 {
+  text-align: center;
+  font-family: playfair;
+  font-weight: lighter;
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.8) !important;
+  line-height: 1.3em;
+}
+
+.description1__gridContainer {
+  /* width: 80%; */
+  /* align-items: center; */
+  /* margin: auto; */
+}
+
+.description1__gridHeader {
+  padding-top: 15px;
+  margin: auto;
+  width: 80%;
+  max-width: 1080px;
+}
+
+.description1__gridHeader > h1 {
+  font-family: playfairSC;
+  color: #0d96e5 !important;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+/* MUI GRID */
+.muiGrid__container {
+  margin: auto;
+  max-width: 1080px;
+  width: 80%;
+}
+
+/* GRID ITEM */
+
+.paperContent {
+  max-width: 550px;
+  margin: 0px auto 0px auto;
+}
+.gridItem__icon {
+  color: #dd9e00 !important;
+}
+
+.gridItem__title > h4 {
+  font-family: playfairSC;
+  text-transform: uppercase;
+  color: #0d96e5 !important;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 21px;
+  padding: 20px 0px 10px 0px;
+}
+
+.gridItem__body > p {
+  color: #616161;
+  font-family: playfair;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.grid__buttonLink {
+  display: flex;
+  color: #0d96e5;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.grid__buttonLink > span {
+  font-size: 20px;
+}
+
+.readMore {
+  border: 2px solid #dd9e00 !important;
+  align-self: center;
+  /* width: auto !important; */
+  margin: 35px auto auto auto;
+}
+
+.readMore:hover {
+  background-color: rgba(201, 201, 201, 0.253) !important;
+  border: 2px solid #0d96e5 !important;
+}
+
+.grid__forwardLink {
+  position: relative;
+  bottom: -3px;
+  margin-left: -20px;
+  color: transparent;
+  transition: all 200ms;
+}
+
+.readMore:hover .grid__forwardLink {
+  color: #0d96e5 !important;
+  margin-left: 10px !important;
+}
+
+.readMore:hover .grid__buttonLink {
+  color: #dd9e00;
+}
