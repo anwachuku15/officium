@@ -6,6 +6,8 @@ import {
   ArrowForwardIosRounded,
 } from "@material-ui/icons";
 
+// TODO: RIGHT ARROW SPACING!!
+
 const Carousel = () => {
   const solutions = useRef();
   const clinicaldev = useRef();
