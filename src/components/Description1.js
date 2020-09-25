@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import useMediaQuery from "@material-ui/core/useMediaQuery";
 import ArrowForwardIosRounded from "@material-ui/icons/ArrowForwardIosRounded";
 // import Puzzle from "@material-ui/icons/ExtensionOutlined";
 import { HiOutlinePuzzle } from "react-icons/hi";
@@ -25,7 +24,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const Description = () => {
-  const matches = useMediaQuery("(min-width:600px)");
   const classes = useStyles();
 
   return (
