@@ -1,6 +1,8 @@
 import React from "react";
 import "./Mission.css";
 
+// TODO: SlIDE RIGHT ANIMATION
+
 const Mission = () => {
   return (
     <div className="mission__container">
