@@ -4,6 +4,8 @@ import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
 import { Menu } from "@material-ui/icons";
 
+// TODO: MUI NAVBAR & USESCROLLTRIGGER
+
 const Navbar = () => {
   const [scrollMax, setScrollMax] = useState(false);
 

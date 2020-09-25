@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactSection.css";
 
-// TODO: ANIMATIONS & CLEANER FORM
+// TODO: ANIMATIONS & CLEANER FORM & BUTTON WRAPPER FOR SUBMIT BUTTON
 const ContactSection = () => {
   return (
     <div className="contactsection__container">

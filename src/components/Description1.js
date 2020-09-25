@@ -10,6 +10,8 @@ import { HiOutlinePuzzle } from "react-icons/hi";
 import { BsPeopleFill } from "react-icons/bs";
 import { FaPencilRuler } from "react-icons/fa";
 
+// TODO: ANIMATIONS
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,

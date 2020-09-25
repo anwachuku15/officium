@@ -4,6 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 
+// TODO: ANIMATIONS
+
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
@@ -14,8 +16,6 @@ const useStyles = makeStyles((theme) => ({
     color: "white",
   },
 }));
-
-// TODO: Animations and top divider img
 
 const Clients = () => {
   const classes = useStyles();

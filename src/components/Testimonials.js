@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Testimonials.css";
 
-// TODO: GRID!
+// TODO: GRID & ANIMATIONS
 const Testimonials = () => {
   return (
     <div className="testimonials__container">

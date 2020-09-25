@@ -1,7 +1,7 @@
 import React from "react";
 import "./Mission.css";
 
-// TODO: SlIDE RIGHT ANIMATION
+// TODO: ANIMATIONS
 
 const Mission = () => {
   return (
