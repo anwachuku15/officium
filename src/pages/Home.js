@@ -9,7 +9,7 @@ import Testimonials from "../components/Testimonials";
 import ContactSection from "../components/ContactSection";
 const Home = () => {
   return (
-    <div className="home" onScroll={(e) => console.log(e.target.scrollTop)}>
+    <div className="home">
       <Carousel />
       <Description />
       <Clients />
