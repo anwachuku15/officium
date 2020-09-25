@@ -22,7 +22,20 @@ const Clients = () => {
 
   return (
     <div className="clients__container">
-      <div className="clients__divider"></div>
+      {/* <div className="clients__divider"> */}
+      <svg
+        width="100%"
+        height="100px"
+        viewBox="0 0 1280 140"
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g fill="#ffffff">
+          <path d="M640 140L1280 0H0z" fill-opacity=".5" />
+          <path d="M640 98l640-98H0z" />
+        </g>
+      </svg>
+      {/* </div> */}
       <div className="clients__headersContainer">
         <div className="clients__headers">
           <div className="clients__header1">
@@ -32,11 +45,11 @@ const Clients = () => {
             </h2>
           </div>
           <div className="clients__header2">
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
-            <h2></h2>
+            <h2> </h2>
+            <h2> </h2>
+            <h2> </h2>
+            <h2> </h2>
+            <h2> </h2>
             <h2>Our Clients</h2>
           </div>
         </div>
