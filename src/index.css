@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: playfairSC-black;
+  src: url("./assets/fonts/PlayfairDisplaySC-Black.ttf");
+}
+
+@font-face {
   font-family: limelight;
   src: url("./assets/fonts/limelight.ttf");
 }
