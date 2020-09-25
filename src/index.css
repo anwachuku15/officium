@@ -1,10 +1,16 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
   font-family: playfair;
   src: url("./assets/fonts/playfair.ttf");
+}
+
+@font-face {
+  font-family: playfair-bold;
+  src: url("./assets/fonts/PlayfairDisplay-ExtraBold.ttf");
 }
 
 @font-face {
@@ -20,6 +26,11 @@
 @font-face {
   font-family: limelight;
   src: url("./assets/fonts/limelight.ttf");
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
 }
 
 body {
