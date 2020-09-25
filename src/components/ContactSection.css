@@ -1,11 +1,11 @@
 .contactsection__container {
+  background-position: top center;
   background-image: url("../assets/img/contactsection.jpg"),
     linear-gradient(
       180deg,
       rgba(9, 69, 109, 0.89) 0%,
       rgba(221, 158, 0, 0.46) 100%
     ) !important;
-  background-position: top center;
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
