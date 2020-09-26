@@ -61,7 +61,7 @@ const Clients = () => {
             <Grid item xs={6} md={3}>
               <Paper className={classes.paper} elevation={6}>
                 <img
-                  src={require("../assets/img/startups.jpg")}
+                  src={require("../../assets/img/startups.jpg")}
                   alt=""
                   className="clients__cardImage"
                 />
@@ -71,7 +71,7 @@ const Clients = () => {
             <Grid item xs={6} md={3}>
               <Paper className={classes.paper} elevation={6}>
                 <img
-                  src={require("../assets/img/firms.jpg")}
+                  src={require("../../assets/img/firms.jpg")}
                   alt=""
                   className="clients__cardImage"
                 />
@@ -81,7 +81,7 @@ const Clients = () => {
             <Grid item xs={6} md={3}>
               <Paper className={classes.paper} elevation={6}>
                 <img
-                  src={require("../assets/img/academic.jpg")}
+                  src={require("../../assets/img/academic.jpg")}
                   alt=""
                   className="clients__cardImage"
                 />
@@ -93,7 +93,7 @@ const Clients = () => {
             <Grid item xs={6} md={3}>
               <Paper className={classes.paper} elevation={6}>
                 <img
-                  src={require("../assets/img/govt.jpg")}
+                  src={require("../../assets/img/govt.jpg")}
                   alt=""
                   className="clients__cardImage"
                 />

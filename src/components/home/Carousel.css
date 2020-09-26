@@ -110,26 +110,26 @@
 .carousel__solutions {
   /* display: none; */
 
-  background-image: url("../assets/img/solutions2.jpg");
+  background-image: url("../../assets/img/solutions2.jpg");
   box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
 }
 
 .carousel__clinicaldev {
   /* display: none; */
-  background-image: url("../assets/img/clinicaldev.jpg");
+  background-image: url("../../assets/img/clinicaldev.jpg");
   box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
 }
 
 .carousel__education {
   /* display: none; */
 
-  background-image: url("../assets/img/education.jpg");
+  background-image: url("../../assets/img/education.jpg");
   box-shadow: inset 0 0 0 2000px rgba(124, 106, 0, 0.438);
 }
 
 .carousel__projectmanagement {
   /* display: none; */
-  background-image: url("../assets/img/projectmanagement.jpg");
+  background-image: url("../../assets/img/projectmanagement.jpg");
   box-shadow: inset 0 0 0 2000px rgba(122, 49, 0, 0.671);
 }
 

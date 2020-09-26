@@ -1,12 +1,12 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "./Home.css";
-import Carousel from "../components/Carousel1";
-import Description from "../components/Description1";
-import Clients from "../components/Clients";
-import Mission from "../components/Mission";
-import Testimonials from "../components/Testimonials";
-import ContactSection from "../components/ContactSection";
+import Carousel from "../components/home/Carousel1";
+import Description from "../components/home/Description1";
+import Clients from "../components/home/Clients";
+import Mission from "../components/home/Mission";
+import Testimonials from "../components/home/Testimonials";
+import ContactSection from "../components/home/ContactSection";
 const Home = () => {
   return (
     <div className="home">
