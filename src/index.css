@@ -43,6 +43,11 @@
   src: url("./assets/fonts/Prata-Regular.ttf");
 }
 
+@font-face {
+  font-family: robotoSlab;
+  src: url("./assets/fonts/RobotoSlab-VariableFont_wght.ttf");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
