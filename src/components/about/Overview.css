@@ -44,6 +44,7 @@
 }
 
 .overview__container {
+  display: flex;
   padding-top: 7px;
 }
 
