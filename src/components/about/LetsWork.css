@@ -1,0 +1,137 @@
+.letsWork__container {
+  /* display: flex; */
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 65, 109, 0.72) 0%,
+      rgba(18, 152, 229, 0.66) 100%
+    ),
+    url("../../assets/img/about/letwork.jpg");
+  background-color: #4eade5 !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-width: 0;
+  border-style: solid;
+  border-color: #26333a;
+  border-left-width: 8vw;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 84px;
+}
+
+.letsWork__contentContainer {
+  padding: 119px 0 27px 0;
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+}
+
+.letsWork__contentHeaderContainer {
+  /* float: left; */
+}
+.letsWork__contentHeaderDiv {
+  /* animation-name: letsWorkHeaderFade;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both; */
+}
+.letsWork__contentHeaderText {
+  z-index: 200;
+}
+.letsWork__contentHeaderText > h2 {
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-family: prata;
+  line-height: 1.6em;
+  font-size: 48px;
+  color: white;
+}
+
+.letsWork__contentButtonWrapper {
+  /* animation-name: letsWorkHeaderFade;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both; */
+}
+
+.letsWork__contentButtonDiv {
+  margin-top: 10px;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+}
+
+.getInTouchButton {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 6px 15px 8px 15px;
+  font-family: playfair;
+  border-radius: 3px;
+  border: 2px solid #ffba60;
+  background-color: transparent;
+  transition: background-color 150ms, border 150ms;
+  position: relative;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.getInTouchButton:hover {
+  background-color: rgba(201, 201, 201, 0.384);
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.getInTouchLink {
+  display: flex;
+  color: white !important;
+  text-decoration: none;
+}
+
+.getInTouchLink > span {
+  font-size: 14px;
+  font-family: playfair;
+}
+
+.getInTouchLink__arrow {
+  position: relative;
+  bottom: -3px;
+  margin-left: -20px;
+  color: transparent;
+  transition: all 200ms;
+}
+
+.getInTouchButton:hover .getInTouchLink__arrow {
+  margin-left: 10px !important;
+  color: #ffba60;
+}
+
+@media (max-width: 980px) {
+  .letsWork__contentHeaderContainer,
+  .letsWork__contentButtonWrapper {
+    width: 100%;
+  }
+  .letsWork__contentHeaderContainer {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 981px) {
+  .letsWork__contentHeaderContainer,
+  .letsWork__contentButtonWrapper {
+    width: 48.5%;
+  }
+  .letsWork__contentHeaderContainer {
+    margin-right: 3%;
+  }
+}
