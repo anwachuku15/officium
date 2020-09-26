@@ -6,6 +6,12 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
+import About from "./pages/About";
+// import Sectors from "./pages/Sectors";
+// import Services from "./pages/Services";
+// import Contracts from "./pages/Contracts";
+// import Careers from "./pages/Careers";
+// import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,6 +20,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
         </Switch>
         <Footer />
       </div>
