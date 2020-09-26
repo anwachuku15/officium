@@ -1,0 +1,202 @@
+.ourMission__container {
+  background-color: #3da8e5;
+}
+
+@media (max-width: 980px) {
+  .ourMission__div {
+    max-width: 1080px;
+  }
+  .ourMission__imageContainer {
+    margin-bottom: 30px;
+    width: 100% !important;
+  }
+  .ourMission__imageDiv {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: auto !important;
+  }
+}
+
+@media (min-width: 981px) {
+  .ourMission__imageContainer {
+    width: 47.25%;
+    margin-right: 5.5%;
+  }
+}
+
+.ourMission__div {
+  display: flex;
+  width: 100%;
+  max-width: 100% !important;
+}
+
+.ourMission__imageContainer {
+  float: left;
+}
+
+.ourMission__imageDiv {
+  padding-top: 32px;
+  max-width: 100% !important;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+}
+
+.ourMission__imageDiv > img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.ourMission__contentContainer {
+  padding-top: 80px;
+  padding-right: 50px;
+  padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 980px) {
+  .ourMission__contentContainer {
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 981px) {
+  .ourMission__contentContainer {
+    width: 47.25%;
+  }
+}
+
+.ourMission__contentHeaderContainer {
+  /* animation-name: missionHeaderSlideRight;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    transform: translate3d(10%, 0px, 0px); */
+  width: 100%;
+  margin-bottom: 10px !important;
+  color: white;
+}
+
+.ourMission__contentHeaderContainer > h2 {
+  font-family: prata;
+  font-size: 48px;
+  line-height: 1.6em;
+  color: white;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.ourMission__contentDivider1 {
+  /* animation-name: missionHeaderSlideRight;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    transform: translate3d(10%, 0px, 0px); */
+  margin-bottom: 35px !important;
+  max-width: 70px;
+  height: 23px;
+  margin: 0 0 30px 0;
+  box-sizing: content-box;
+  border: none;
+}
+
+.ourMission__contentDivider {
+  /* animation-name: overviewDividerSlideRight;
+      animation-duration: 1000ms;
+      animation-delay: 0ms;
+      opacity: 0;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
+      transform: translate3d(10%, 0px, 0px); */
+  max-width: 70px;
+  height: 23px;
+  margin: 0 0 30px 0;
+  box-sizing: content-box;
+  border-color: white transparent transparent transparent;
+  border-top-width: 3px;
+  border-style: solid;
+  content: "";
+  width: 100%;
+  height: 1px;
+}
+
+@media (min-width: 981px) {
+  .ourMission__content1Container,
+  .ourMission__content2Container {
+    margin-bottom: 5.82%;
+  }
+  .ourMission__content3Container {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 980px) {
+  .ourMission__content1Container,
+  .ourMission__content2Container {
+    margin-bottom: 30px;
+  }
+  .ourMission__content3Container {
+    margin-bottom: 0;
+  }
+}
+
+.ourMission__content1Container {
+  /* animation-name: missionHeaderSlideRight;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    transform: translate3d(10%, 0px, 0px); */
+  font-size: 16px;
+  line-height: 1.8em;
+}
+
+.ourMission__content1Container > h3 {
+  font-family: robotoSlab;
+  font-size: 22px;
+  color: white;
+  line-height: 1.4em;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.ourMission__content1Container > p {
+  font-family: playfair;
+  font-size: 16px;
+  color: white;
+  line-height: 1.8em;
+}
+
+.ourMission__content2Container {
+}
+
+.ourMission__content3Container {
+  /* animation-name: missionHeaderSlideRight;
+    animation-duration: 1000ms;
+    animation-delay: 0ms;
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    transform: translate3d(10%, 0px, 0px); */
+}
+.ourMission__content3Container > h3 {
+  font-family: robotoSlab;
+  font-size: 22px;
+  color: white;
+  line-height: 1.4em;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.ourMission__content3Container > p {
+  font-family: playfair;
+  font-size: 16px;
+  color: white;
+  line-height: 1.8em;
+}
