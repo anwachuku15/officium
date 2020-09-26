@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { MenuItems } from "./MenuItems";
 import { Menu } from "@material-ui/icons";
@@ -37,9 +37,14 @@ const Navbar = () => {
       <div className="navbar__right">
         <div className="fullMenu">
           {MenuItems.map((item, index) => (
-            <Link to={item.url} className={item.className} key={index}>
+            <NavLink
+              to={item.url}
+              className="navbar__link"
+              activeClassName="navbar__linkActive"
+              key={index}
+            >
               <p>{item.title}</p>
-            </Link>
+            </NavLink>
           ))}
         </div>
         <div className="burgerMenu">

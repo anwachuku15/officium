@@ -58,9 +58,17 @@
 
 .navbar__link {
   text-decoration: none;
-  color: black !important;
+  color: black;
   padding-left: 22px;
   font-family: playfair;
   font-size: 14px;
   /* font-weight: 500; */
+}
+
+.navbar__linkActive {
+  color: rgb(53, 156, 253);
+  text-decoration: none;
+  padding-left: 22px;
+  font-family: playfair;
+  font-size: 14px;
 }
