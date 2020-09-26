@@ -50,19 +50,25 @@ const StatsRow = ({ numbers, titles }) => (
     <Grid item xs={12} md={4} lg={4}>
       <div className="ourClients__gridColumn2">
         <h1>{numbers[0]}</h1>
+        <h2></h2>
         <h2>{titles[0]}</h2>
+        <h2></h2>
       </div>
     </Grid>
     <Grid item xs={12} md={4} lg={4}>
       <div className="ourClients__gridColumn2">
         <h1>{numbers[1]}</h1>
+        <h2></h2>
         <h2>{titles[1]}</h2>
+        <h2></h2>
       </div>
     </Grid>
     <Grid item xs={12} md={4} lg={4}>
       <div className="ourClients__gridColumn2">
         <h1>{numbers[2]}</h1>
+        <h2></h2>
         <h2>{titles[2]}</h2>
+        <h2></h2>
       </div>
     </Grid>
   </Fragment>
