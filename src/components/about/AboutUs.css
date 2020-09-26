@@ -31,12 +31,6 @@
   }
 }
 
-@media (min-width: 1350px) {
-  .aboutUs__container {
-    padding: 54px 0;
-  }
-}
-
 .aboutUs__contentContainer {
   width: 80%;
   max-width: 1080px;
