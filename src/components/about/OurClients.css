@@ -1,0 +1,117 @@
+.ourClients__container {
+  /* display: flex;
+      flex-direction: column; */
+  background-color: #f7f7f7;
+  padding-top: 59px;
+  padding-bottom: 45px;
+}
+
+@media (max-width: 980px) {
+  .ourClients__headerContainer {
+    padding: 30px 0;
+  }
+  .ourClients__headerDiv {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 981px) {
+  .ourClients__headerContainer {
+    padding: 2% 0;
+  }
+  .ourClients__headerDiv {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1350px) {
+  .ourClients__headerContainer {
+    padding: 27px 0;
+  }
+}
+
+.ourClients__headerContainer {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+}
+
+.ourClients__headerDiv {
+  width: 100%;
+}
+
+.ourClients__header {
+  /* animation-name: ourClientsHeaderFade;
+        animation-duration: 1000ms;
+        animation-delay: 0ms;
+        opacity: 0;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: both; */
+  margin-bottom: 10px;
+}
+
+.ourClients__headerText {
+}
+
+.ourClients__headerText > h2 {
+  font-size: 48px;
+  font-family: prata;
+  line-height: 1.6em;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #333;
+  font-weight: 500;
+}
+
+.ourClients__divider {
+  /* animation-name: ourClientsDividerSlideTop;
+          animation-duration: 1000ms;
+          animation-delay: 0ms;
+          opacity: 0;
+          animation-timing-function: ease-in-out;
+          animation-fill-mode: both;
+          transform: translate3d(0px, -20%, 0px); */
+  max-width: 70px;
+  height: 23px;
+  margin: 0 auto 30px auto;
+  box-sizing: content-box;
+  border-color: #dd9e00 transparent transparent transparent;
+  border-top-width: 3px;
+  border-style: solid;
+  content: "";
+  width: 100%;
+  height: 1px;
+}
+
+.ourClients__gridColumn > h2 {
+  font-size: 20px;
+  font-family: robotoSlab;
+  padding: 0 0 10px 0;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+
+.ourClients__gridColumn > p {
+  font-family: playfair;
+  line-height: 2em;
+}
+
+.ourClients__gridColumn2 > h1 {
+  font-size: 60px;
+  font-family: prata;
+  color: #dd9e00;
+  line-height: 72px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.ourClients__gridColumn2 > h2 {
+  font-size: 20px;
+  font-family: robotoSlab;
+  padding: 0 0 10px 0;
+  color: #333;
+  font-weight: 500;
+  line-height: 1.4em;
+  text-align: center;
+}
