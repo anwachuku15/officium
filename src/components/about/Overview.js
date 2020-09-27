@@ -1,6 +1,5 @@
 import React from "react";
 import "./Overview.css";
-import Grid from "@material-ui/core/Grid";
 
 const Overview = () => {
   return (
