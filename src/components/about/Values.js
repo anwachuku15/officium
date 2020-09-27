@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+/* eslint-disable jsx-a11y/heading-has-content */
+import React from "react";
 import "./Values.css";
 import { makeStyles } from "@material-ui/core/styles";
 

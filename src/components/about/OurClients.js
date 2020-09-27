@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 import React, { Fragment } from "react";
 import "./OurClients.css";
 import { makeStyles } from "@material-ui/core/styles";
