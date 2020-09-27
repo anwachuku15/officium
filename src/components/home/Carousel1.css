@@ -173,6 +173,36 @@
   cursor: pointer;
 }
 
+.buttonWrapperHome {
+  display: flex;
+  width: max-content;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 6px 15px 8px 15px;
+  font-family: playfair;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+  transition: background-color 150ms, border 150ms;
+  position: absolute;
+  top: 60%;
+}
+
+.buttonWrapperHome:hover {
+  background-color: rgba(201, 201, 201, 0.384);
+  border: 2px solid transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.buttonWrapperHome:hover .link__arrowForward1 {
+  margin-left: 10px !important;
+  color: white;
+}
+
 .slide__arrowLeft1 {
   position: absolute;
   margin-left: -30px;
