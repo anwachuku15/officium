@@ -85,7 +85,7 @@
   }
   to {
     opacity: 1;
-    margin-top: 0px;
+    margin-top: 20px;
   }
 }
 
@@ -133,6 +133,15 @@
   font-size: 25px;
   font-family: playfair;
   padding: 0% 12%;
+}
+
+@media (max-width: 770px) {
+  .carousel__title1 {
+    font-size: 40px;
+  }
+  .carousel__subtitle1 {
+    font-size: 20px;
+  }
 }
 
 .buttonWrapper1 {
@@ -209,15 +218,37 @@
   align-self: center;
   align-items: center;
   justify-content: center;
-  margin-top: 0px;
+  margin-top: 20px;
   padding: 6px 15px 8px 15px;
   font-family: playfair;
   border-radius: 3px;
   border: 2px solid white;
   background-color: transparent;
   transition: background-color 150ms, border 150ms, opacity 1s ease;
-  position: absolute;
+  position: relative;
   top: 60%;
+}
+
+@media (min-width: 981px) {
+  .moreInfoButton {
+    top: 62%;
+  }
+}
+
+@media (max-width: 980px) {
+  .moreInfoButton {
+    top: 65%;
+  }
+}
+
+@media (max-width: 630px) {
+  .moreInfoButton {
+    padding: 4px 10px 4px 10px;
+    top: 70%;
+  }
+  .carousel__link1 > span {
+    font-size: 14px;
+  }
 }
 
 .moreInfoButton:hover {
