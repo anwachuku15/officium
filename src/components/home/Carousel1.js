@@ -13,7 +13,7 @@ const Carousel = () => {
   const clinicaldev = useRef();
   const education = useRef();
   const projectmgmt = useRef();
-  const buttonHome = useRef();
+  const moreInfo = useRef();
 
   const first = useRef();
   const second = useRef();
@@ -45,6 +45,9 @@ const Carousel = () => {
   };
 
   const showSlide = (slide, prev) => {
+    // slides[slide].current.style.display = "flex";
+    // moreInfo.current.classList.add("slideUpButton");
+    moreInfo.current.style.opacity = 0;
     slides[prev].current.style.opacity = 0;
     dotRefs[prev].current.style.backgroundColor = "rgba(253, 253, 253, 0.74)";
     slides[slide].current.style.opacity = 1;
@@ -63,12 +66,15 @@ const Carousel = () => {
   };
 
   const showContent = (slide) => {
-    // buttonHome.current.classList.remove("slideUp");
     content[slide].current.classList.add("slideUp");
     content[prev].current.classList.remove("slideUp");
     content[slide].current.style.opacity = 0;
+    moreInfo.current.classList.add("slideUpButton");
     setTimeout(() => {
       content[slide].current.style.opacity = 1;
+      moreInfo.current.style.opacity = 1;
+      moreInfo.current.classList.remove("slideUpButton");
+      // slides[prev].current.style.display = "none";
     }, 1600);
   };
 
@@ -76,12 +82,12 @@ const Carousel = () => {
     showSlide(slide, 3);
     dotRefs[0].current.style.backgroundColor = "#535353d0";
   });
-  // TODO: Make ButtonWrapper it's own div
+
   return (
     <div className="carouselContainer1">
       <div className="carousel1">
         <div
-          className="carousel__item1 carousel__solutions1"
+          className="carousel__slide carousel__solutions1"
           style={{ opacity: 0 }}
           ref={solutions}
         >
@@ -90,11 +96,19 @@ const Carousel = () => {
             <p className="carousel__subtitle1">
               An Innovative Understanding and Evaluation of Science Company
             </p>
+            {/* <div className="buttonWrapper1">
+              <Link to="/services" className="carousel__link1">
+                <span>More Information</span>
+              </Link>
+              <div className="link__arrowForward1">
+                <ArrowForwardIosRounded fontSize="small" />
+              </div>
+            </div> */}
           </div>
         </div>
 
         <div
-          className="carousel__item1 carousel__clinicaldev1"
+          className="carousel__slide carousel__clinicaldev1"
           style={{ opacity: 0 }}
           ref={clinicaldev}
         >
@@ -104,11 +118,19 @@ const Carousel = () => {
               With our research services and diverse therapeutic expertise we
               enhance your capacity and minimize risk
             </p>
+            {/* <div className="buttonWrapper1">
+              <Link to="/services" className="carousel__link1">
+                <span>More Information</span>
+              </Link>
+              <div className="link__arrowForward1">
+                <ArrowForwardIosRounded fontSize="small" />
+              </div>
+            </div> */}
           </div>
         </div>
 
         <div
-          className="carousel__item1 carousel__education1"
+          className="carousel__slide carousel__education1"
           style={{ opacity: 0 }}
           ref={education}
         >
@@ -118,11 +140,19 @@ const Carousel = () => {
               Achieve more with our talented team of education researchers and
               analysts
             </p>
+            {/* <div className="buttonWrapper1">
+              <Link to="/services" className="carousel__link1">
+                <span>More Information</span>
+              </Link>
+              <div className="link__arrowForward1">
+                <ArrowForwardIosRounded fontSize="small" />
+              </div>
+            </div> */}
           </div>
         </div>
 
         <div
-          className="carousel__item1 carousel__projectmanagement1"
+          className="carousel__slide carousel__projectmanagement1"
           style={{ opacity: 0 }}
           ref={projectmgmt}
         >
@@ -132,13 +162,21 @@ const Carousel = () => {
               To compete in today's economy, effective and innovation management
               is crucial for organizations
             </p>
+            {/* <div className="buttonWrapper1">
+              <Link to="/services" className="carousel__link1">
+                <span>More Information</span>
+              </Link>
+              <div className="link__arrowForward1">
+                <ArrowForwardIosRounded fontSize="small" />
+              </div>
+            </div> */}
           </div>
         </div>
 
         <div
-          className="buttonWrapperHome slideUp"
+          className="moreInfoButton slideUpButton"
           style={{ opacity: 0 }}
-          ref={buttonHome}
+          ref={moreInfo}
         >
           <Link to="/services" className="carousel__link1">
             <span>More Information</span>

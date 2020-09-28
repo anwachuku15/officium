@@ -22,43 +22,37 @@
   height: 100vh;
 }
 
-.carousel__item1 {
+.carousel__slide {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
+  display: flex;
   position: absolute;
   width: 100%;
   transition: all 1s ease;
 }
 
 .carousel__solutions1 {
-  /* display: none; */
-
   background-image: url("../../assets/img/home/solutions2.jpg");
   box-shadow: inset 0 0 0 2000px rgba(0, 56, 119, 0.5);
 }
 
 .carousel__clinicaldev1 {
-  /* display: none; */
   background-image: url("../../assets/img/home/clinicaldev.jpg");
   box-shadow: inset 0 0 0 2000px rgba(17, 90, 145, 0.5);
 }
 
 .carousel__education1 {
-  /* display: none; */
-
   background-image: url("../../assets/img/home/education.jpg");
   box-shadow: inset 0 0 0 2000px rgba(169, 143, 0, 0.438);
 }
 
 .carousel__projectmanagement1 {
-  /* display: none; */
   background-image: url("../../assets/img/home/projectmanagement.jpg");
   box-shadow: inset 0 0 0 2000px rgba(122, 49, 0, 0.671);
 }
@@ -77,6 +71,42 @@
 
 .slideUp {
   animation-name: slideUp;
+  animation-delay: 900ms;
+  animation-duration: 700ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  /* z-index: 20; */
+}
+
+@keyframes slideUpButton {
+  from {
+    opacity: 0;
+    margin-top: 100px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0px;
+  }
+}
+
+@keyframes buttonFadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.buttonfadeOut {
+  animation-name: buttonFadeOut;
+  animation-duration: 1000ms;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+.slideUpButton {
+  animation-name: slideUpButton;
   animation-delay: 900ms;
   animation-duration: 700ms;
   animation-timing-function: ease-in-out;
@@ -173,24 +203,24 @@
   cursor: pointer;
 }
 
-.buttonWrapperHome {
+.moreInfoButton {
   display: flex;
   width: max-content;
   align-self: center;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 0px;
   padding: 6px 15px 8px 15px;
   font-family: playfair;
   border-radius: 3px;
   border: 2px solid white;
   background-color: transparent;
-  transition: background-color 150ms, border 150ms;
+  transition: background-color 150ms, border 150ms, opacity 1s ease;
   position: absolute;
   top: 60%;
 }
 
-.buttonWrapperHome:hover {
+.moreInfoButton:hover {
   background-color: rgba(201, 201, 201, 0.384);
   border: 2px solid transparent;
   cursor: pointer;
@@ -198,7 +228,7 @@
   align-items: center;
 }
 
-.buttonWrapperHome:hover .link__arrowForward1 {
+.moreInfoButton:hover .link__arrowForward1 {
   margin-left: 10px !important;
   color: white;
 }
