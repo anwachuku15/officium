@@ -140,7 +140,7 @@
     font-size: 40px;
   }
   .carousel__subtitle1 {
-    font-size: 20px;
+    /* font-size: 20px; */
   }
 }
 
@@ -243,11 +243,7 @@
 
 @media (max-width: 630px) {
   .moreInfoButton {
-    padding: 4px 10px 4px 10px;
     top: 70%;
-  }
-  .carousel__link1 > span {
-    font-size: 14px;
   }
 }
 
