@@ -60,7 +60,12 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="navbar__left">
+      <div
+        className="navbar__left"
+        onClick={() => {
+          isMenuOpen && handleCloseMenu();
+        }}
+      >
         <Link to="/">
           <img
             src={require("../assets/img/logo.svg")}
