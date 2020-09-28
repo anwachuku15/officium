@@ -21,7 +21,69 @@
     display: flex;
     color: rgb(53, 156, 253);
     /* padding-bottom: 33px; */
+    padding-right: 50px;
   }
+}
+
+.burgerMenu:hover {
+  cursor: pointer;
+}
+
+.mobileMenuContainer {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+  width: 80%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  margin-top: 53px;
+  left: 10%;
+  height: 260px;
+  border-top: 3px solid #dd9e00;
+  transition: 500ms ease;
+}
+
+.openMenu {
+  animation-name: openMenu;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes openMenu {
+  from {
+    height: 0px;
+    border-top: 0px solid transparent;
+  }
+  to {
+    height: 260px;
+    border-top: 3px solid #dd9e00;
+  }
+}
+
+.closeMenu {
+  animation-name: closeMenu;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes closeMenu {
+  from {
+    height: 260px;
+    border-top: 3px solid #dd9e00;
+  }
+  to {
+    height: 0px;
+    border-top: 0px solid transparent;
+  }
+}
+
+.mobileMenuTitle {
+  font-weight: 600;
 }
 
 .navbar {
