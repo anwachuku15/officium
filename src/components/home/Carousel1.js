@@ -47,7 +47,7 @@ const Carousel = () => {
   const showSlide = (slide, prev) => {
     // slides[slide].current.style.display = "flex";
     // moreInfo.current.classList.add("slideUpButton");
-    moreInfo.current.style.opacity = 0;
+    // moreInfo.current.style.opacity = 0;
     slides[prev].current.style.opacity = 0;
     dotRefs[prev].current.style.backgroundColor = "rgba(253, 253, 253, 0.74)";
     slides[slide].current.style.opacity = 1;

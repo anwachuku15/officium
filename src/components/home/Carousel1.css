@@ -130,7 +130,8 @@
   font-family: limelight;
 }
 .carousel__subtitle1 {
-  font-size: 25px;
+  /* font-size: 25px; */
+  font-size: calc(16px + 2vmin);
   font-family: playfair;
   padding: 0% 12%;
 }
