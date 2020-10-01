@@ -34,7 +34,7 @@ const Navbar = () => {
         );
       };
     }
-  }, [windowWidth]);
+  }, [windowWidth, setScrollMax]);
 
   const [anchorEl, setAnchorEl] = useState(null);
   const mobileMenu = useRef();
