@@ -12,8 +12,8 @@ const Testimonials = () => {
             <div className="testimonial__description">
               <div className="testimonial__innerDesc">
                 <p className="testimonial__quote">
-                  “Great professional service! Their assistance was valuable in
-                  preparation for meeting with the FDA.”
+                  "Iaculis eu non diam phasellus! Vestibulum lorem sed arcu ac
+                  tortor dignissim convallis aenean et tortor."
                 </p>
                 <strong>Jane Doe</strong>
                 <p className="testimonial__meta">
@@ -33,8 +33,8 @@ const Testimonials = () => {
             <div className="testimonial__description">
               <div className="testimonial__innerDesc">
                 <p className="testimonial__quote">
-                  “The team is professional, knowledgeable and dependable. We
-                  look forward to hiring them again soon.”
+                  “Nec sagittis aliquam malesuada bibend elementum.Tincidunt
+                  praesent semper feugiat.”
                 </p>
                 <strong>John Doe</strong>
                 <p className="testimonial__meta">
@@ -44,7 +44,7 @@ const Testimonials = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Complex Media, Inc.
+                    Lorem Ipsum, Inc.
                   </a>
                 </p>
               </div>
@@ -58,8 +58,8 @@ const Testimonials = () => {
               <div className="testimonials__rightTopInnerText">
                 <h4>JOIN US</h4>
                 <h2>
-                  We are selective about the clients we work with, but once a
-                  client we evolve with you all the way
+                  Dignissim suspendisse in est ante in nibh mauris cursus mattis
+                  mollis aliquam ut porttitor leo.
                 </h2>
               </div>
             </div>

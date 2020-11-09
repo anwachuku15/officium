@@ -17,18 +17,20 @@ const Overview = () => {
           <div className="overview__bodyContainer">
             <div className="overview__body">
               <p>
-                Established in 2017, NUES LLC is a comprehensive firm focused on
-                serving various sectors of small, medium, and large companies,
-                including global corporations and government agencies. We offer
-                services ranging from project management, regulatory affairs,
-                clinical research development, education services, risk
-                management, public health research, health equity research and
-                custom solutions.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Massa massa ultricies mi quis hendrerit dolor magna.
+                Pellentesque dignissim enim sit amet venenatis urna cursus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip. Pellentesque eu
+                tincidunt tortor aliquam nulla. Dictum at tempor
               </p>
               <p>
-                Based in Silver Spring, Maryland, NUES consulting brings in over
-                25 years of experts knowledge to help clients navigate the
-                complex journey of reaching their research destination.
+                Ultrices gravida dictum fusce ut placerat orci. Posuere ac ut
+                consequat semper viverra nam libero. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
               </p>
             </div>
           </div>

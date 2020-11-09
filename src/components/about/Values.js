@@ -38,19 +38,19 @@ const Values = () => {
             <div className="values__gridColumn">
               <h2>Excellence</h2>
               <p>
-                Our relentless pursuit of excellence is evident in our services.
-                This means our clients receive superior deliverable that meets
-                or surpasses their expectations
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip.
               </p>
               <h2></h2>
               <h2></h2>
               <h2></h2>
               <h2>Quality</h2>
               <p>
-                Our commitment to consistent quality products and services is
-                seen through our focus on quality control and quality planning.
-                Our clients can expect continous innovation in our methods of
-                delivering quality service to them
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Massa massa ultricies mi quis hendrerit dolor magna.
+                Pellentesque dignissim enim sit amet venenatis urna cursus.
               </p>
             </div>
           </Grid>
@@ -58,20 +58,19 @@ const Values = () => {
             <div className="values__gridColumn">
               <h2>Integrity and Ethics</h2>
               <p>
-                Doing the right thing by our clients and society at-large is
-                central to our corporate responsibility. Our clients can the
-                highest ethical standard and their confidential information to
-                be maintained
+                Pellentesque eu tincidunt tortor aliquam nulla. Dictum at tempor
+                commodo ullamcorper a. Ultrices gravida dictum fusce ut placerat
+                orci. Posuere ac ut consequat semper viverra nam libeo.
               </p>
               <h2></h2>
               <h2></h2>
               <h2></h2>
               <h2>Teamwork</h2>
               <p>
-                Teamwork is essential to achieving the goals both internally and
-                with our clients. For our clients, this translates to on-time
-                delivery and increased efficiencies for their products and
-                services
+                Dolor sit amet consectetur adipiscing elit. Euismod nisi porta
+                lorem mollis aliquam ut porttitor leo. Vitae sapien pellentesque
+                habitant morbi tristique. Dignissim suspendisse in est ante in
+                nibh mauris cursus mattis.
               </p>
             </div>
           </Grid>
@@ -79,19 +78,21 @@ const Values = () => {
             <div className="values__gridColumn">
               <h2>Honest Communication</h2>
               <p>
-                Our golden standard of communication with our clients’ centers
-                around the principle of open-ended questions; discussing
-                problems; and critically sharing ideas that help them succeed
+                Nec sagittis aliquam malesuada bibendum arcu vitae elementum.
+                Tincidunt praesent semper feugiat nibh sed pulvinar proin
+                gravida. Nec sagittis aliquam malesuada bibendum arcu vitae
+                elementum.
               </p>
               <h2></h2>
               <h2></h2>
               <h2></h2>
               <h2>Ownership and Initiative</h2>
               <p>
-                Leadership values and skills are built from the ground-up
-                throughout our organization. Our clients can expect that project
-                priorities are aligned to maximize their firm’s vision and
-                success
+                Elit eget gravida cum sociis natoque. Iaculis at erat
+                pellentesque adipiscing commodo. Eu turpis egestas pretium
+                aenean pharetra. Iaculis eu non diam phasellus vestibulum lorem
+                sed. Gravida arcu ac tortor dignissim convallis aenean et
+                tortor.
               </p>
             </div>
           </Grid>

@@ -12,9 +12,9 @@ const AboutUs = () => {
               <h1></h1>
               <h1>About Us</h1>
               <p>
-                NUES meaning Innovative Understanding and Evaluation of Science
-                represents our mission to you. We create innovative solutions to
-                your needs by evaluating the gaps through a different lens.
+                Pellentesque eu tincidunt tortor aliquam nulla. Dictum at tempor
+                commodo ullamcorper a. Ultrices gravida dictum fusce ut placerat
+                orci.
               </p>
             </div>
           </div>

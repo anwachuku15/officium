@@ -18,23 +18,23 @@ const OurMission = () => {
           <div className="ourMission__content1Container">
             <h3>Create</h3>
             <p>
-              Create efficient and effective processes that meets our clients
-              needs
+              Pellentesque eu tincidunt tortor aliquam nulla. Dictum at tempor
+              commodo
             </p>
           </div>
           <div className="ourMission__content1Container">
             <h3>Strengthen</h3>
             <p>
-              Strengthen efforts that advance the creation of products and
-              services that prevent disease, increase literacy, and eliminates
-              health disparities
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa
+              ultricies mi quis.
             </p>
           </div>
           <div className="ourMission__content3Container">
             <h3>Lead</h3>
             <p>
-              Lead with intention. Aim to make complex systems and processes
-              simple and guide with strength
+              Dignissim suspendisse in est ante in nibh mauris cursus mattis.
+              Vitae sapien pellentesque habitant morbi tristique
             </p>
           </div>
         </div>

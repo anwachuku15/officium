@@ -12,9 +12,9 @@ const Mission = () => {
           <div className="mission__messageContainer">
             <div className="mission__innerText">
               <p>
-                “What sets us apart from other consulting firms, is our
-                commitment to go above and beyond the client’s expectations and
-                become fully invested in their success.” – CEO{" "}
+                “Pellentesque eu tincidunt tortor aliquam nulla. Dictum at
+                tempor commodo ullamcorper a. Ultrices gravida dictum fusce ut
+                placerat orci.” – CEO{" "}
               </p>
             </div>
           </div>
